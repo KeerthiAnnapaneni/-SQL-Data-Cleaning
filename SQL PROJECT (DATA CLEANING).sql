@@ -2,7 +2,7 @@ select * from layoffs;
 
 -- 1) remove duplicates
 -- 2) standardize the data
--- 3) null values or blank values
+-- 3) null values or blank value
 -- 4) remove any colums
 
 CREATE TABLE layoffs_staging LIKE  layoffs;
